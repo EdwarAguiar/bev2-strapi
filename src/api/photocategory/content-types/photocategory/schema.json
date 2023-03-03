@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photocategories",
+  "info": {
+    "singularName": "photocategory",
+    "pluralName": "photocategories",
+    "displayName": "photocategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "src": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
